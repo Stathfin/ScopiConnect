@@ -27,10 +27,11 @@ orders, change your research or buy credits.
 
 ## Requirements
 
-- A Stathfin account with an active **Plus** or **Pro** plan.
-  - Plus: 25 tools, 10 requests per minute. No fair-value tools.
-  - Pro: all 27 tools, 30 requests per minute (90 with Priority).
+- A Stathfin account with an active **Plus** or **Pro** plan (plans differ in
+  available tools and rate limits; fair-value tools are Pro only).
 - SCOPI Credits in your Stathfin wallet (the same wallet SCOPI Chat uses).
+  Each data call spends credits by price class; current prices are on the
+  [MCP docs](https://stathfin.id/docs/mcp).
 
 ## Install
 
@@ -74,25 +75,17 @@ Manage or disconnect apps at
 
 ## Pricing
 
-Each call is charged in SCOPI Credits by price class. Priority traffic costs 2×.
-
-| Class | Covers | Standard |
-|---|---|---|
-| Basic | Single-company metrics, statements, dividends, earnings quality, forensic, banking, ownership, agenda, macro, issuer search and summary | 30 credits + 1 per KiB |
-| Heavy | Screens, multi-company and sector comparisons, peer valuation, market moves, broker summary | 60 credits + 1 per KiB |
-| Premium *(Pro)* | Saved valuation models and valuation band | 1,000 credits + 1 per KiB |
-
+Each call spends SCOPI Credits by price class (Basic, Heavy, Premium).
 Retrying with the same `request_id` returns the first result without a second
 charge. A read that fails after it starts is refunded automatically.
 
-Full documentation: [stathfin.id/docs/mcp](https://stathfin.id/docs/mcp)
+Current prices: [stathfin.id/docs/mcp](https://stathfin.id/docs/mcp)
 
 ## Supported clients
 
 | Client | Status |
 |---|---|
 | Claude Code | Beta |
-| T3 Code (running Claude Code) | Beta, via Claude Code |
 | Claude.ai web / Desktop | Coming soon |
 | ChatGPT | Coming soon |
 | Codex | Coming soon |

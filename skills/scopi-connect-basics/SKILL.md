@@ -25,10 +25,10 @@ costs the user SCOPI Credits, so treat calls as paid.
 - Prefer comparison tools (`company__compare_metrics`, `company__compare_banks`,
   `sector__compare_metric`, `company__compare_earnings_quality`) over several
   single-ticker calls.
-- Screens, comparisons, peer valuation, market moves and broker summary are
-  Heavy class (about 2x Basic). Valuation models and the valuation band are
-  Premium (about 33x Basic, Pro only). Use Premium tools only when the user asks
-  about fair value or valuation models.
+- Calls fall into Basic, Heavy and Premium price classes. Heavy costs more
+  than Basic; Premium (valuation models and the valuation band, Pro only)
+  costs much more. Use Premium tools only when the user asks about fair
+  value or valuation models. Current prices are on the Stathfin MCP docs.
 - Do not call again for data already in the conversation.
 
 ## Reading results
