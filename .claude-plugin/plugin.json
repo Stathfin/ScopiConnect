@@ -1,0 +1,14 @@
+{
+  "name": "scopi",
+  "version": "0.1.0",
+  "description": "SCOPI Connect: Stathfin's Indonesian stock market data as MCP tools, plus research skills for analysing IDX issuers.",
+  "author": {
+    "name": "Stathfin",
+    "url": "https://stathfin.id"
+  },
+  "homepage": "https://stathfin.id/docs/mcp",
+  "repository": "https://github.com/Stathfin-ICP/ScopiConnect",
+  "privacyPolicyUrl": "https://stathfin.id/privacy-policy",
+  "license": "MIT",
+  "keywords": ["indonesia", "idx", "stocks", "finance", "mcp", "scopi"]
+}

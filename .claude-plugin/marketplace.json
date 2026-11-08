@@ -1,0 +1,16 @@
+{
+  "name": "scopi-connect",
+  "owner": {
+    "name": "Stathfin",
+    "url": "https://stathfin.id"
+  },
+  "plugins": [
+    {
+      "name": "scopi",
+      "source": "./",
+      "description": "Indonesian stock market data from Stathfin (SCOPI Connect) for your own AI: fundamentals, valuation, banks, screens, broker summary and macro.",
+      "version": "0.1.0",
+      "license": "MIT"
+    }
+  ]
+}

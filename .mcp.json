@@ -1,0 +1,10 @@
+{
+  "scopi": {
+    "type": "http",
+    "url": "https://stathfin.id/api/mcp",
+    "oauth": {
+      "clientId": "claude-code-stathfin-beta",
+      "callbackPort": 8080
+    }
+  }
+}
