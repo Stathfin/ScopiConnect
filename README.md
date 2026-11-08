@@ -73,6 +73,8 @@ Manage or disconnect apps at
 | `scopi-value-trap-check` | "Cheap, but is it a trap?" checks |
 | `scopi-bank-screen` | Finding and comparing Indonesian banks |
 
+Full index of all 32 tools with their arguments: [TOOLS.md](./TOOLS.md).
+
 ## Pricing
 
 Each call spends SCOPI Credits by price class (Basic, Heavy, Premium).
