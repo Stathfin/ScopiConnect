@@ -13,7 +13,7 @@ Ask the user to run these two slash commands (you cannot run slash commands
 yourself):
 
 ```
-/plugin marketplace add Stathfin-ICP/ScopiConnect
+/plugin marketplace add Stathfin/ScopiConnect
 /plugin install scopi@scopi-connect
 ```
 

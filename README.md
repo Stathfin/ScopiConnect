@@ -37,7 +37,7 @@ orders, change your research or buy credits.
 ### Claude Code (plugin, recommended)
 
 ```
-/plugin marketplace add Stathfin-ICP/ScopiConnect
+/plugin marketplace add Stathfin/ScopiConnect
 /plugin install scopi@scopi-connect
 ```
 
